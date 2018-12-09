@@ -38,7 +38,6 @@ void printIdx (C const& coll)
 template<std::size_t...>
 struct Indices {
 };
-
 template<typename T, std::size_t... Idx>
 void printByIdx(T t, Indices<Idx...>)
 {
